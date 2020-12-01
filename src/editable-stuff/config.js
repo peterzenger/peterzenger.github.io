@@ -62,7 +62,7 @@ const repos = {
   gitHubUsername: "yang573", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "yang573/personal-page", "yang573/MYSpace-Deployment",
+    "yang573/yang573.github.io", "yang573/MYSpace-Deployment",
     "yang573/club-membership-py", "alexfchin/roombalistic"
   ],
 };
@@ -129,7 +129,7 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: false,
+  show: false, // Not enabled
   heading: "Get In Touch",
   message:
     "Questions? Comments? Concerns? Send me an email"
