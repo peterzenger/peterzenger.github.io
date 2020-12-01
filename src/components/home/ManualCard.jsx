@@ -24,7 +24,9 @@ function ManualCard({ value }) {
               target=" _blank"
               className="btn btn-outline-secondary"
             >
-              Link
+              <span className="text-dark card-link">
+                <i className="fas fa-link" /> Link
+              </span>
             </a>
           ) : (
             <Skeleton count={2} />

@@ -9,6 +9,7 @@ import {
   leadership,
   skills,
   getInTouch,
+  contactInfo
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -38,6 +39,7 @@ const Home = React.forwardRef((props, ref) => {
           link={about.imageLink}
           imgSize={about.imageSize}
           resume={about.resume}
+          contactInfo={contactInfo}
         />
       )}
       {repos.show && (
@@ -81,7 +83,7 @@ const App = () => {
           <GetInTouch
             heading={getInTouch.heading}
             message={getInTouch.message}
-            email={getInTouch.email}
+            email={contactInfo.email}
           />
         )}
       </Footer>

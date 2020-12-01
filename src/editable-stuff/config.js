@@ -129,16 +129,22 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
-    "Questions? Comments? Concerns? Send me an email",
-  email: "yangyang1998@gmail.com",
+    "Questions? Comments? Concerns? Send me an email"
 };
+
+const contactInfo = {
+  email: "yangyang1998@gmail.com",
+  location: "Stony Brook, NY",
+  locationLink: "https://www.openstreetmap.org/#map=12/40.9174/-73.1247",
+  occupation: "Student at Stony Brook University"
+}
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, manualProjects, skills, leadership, getInTouch };
+export { navBar, mainBody, about, repos, manualProjects, skills, leadership, getInTouch, contactInfo };
