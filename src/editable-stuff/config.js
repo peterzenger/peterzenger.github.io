@@ -62,8 +62,8 @@ const repos = {
   gitHubUsername: "yang573", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "yang573/MYSpace-Deployment", "yang573/club-membership-py",
-    "alexfchin/roombalistic", "yang573/sbml"
+    "yang573/personal-page", "yang573/MYSpace-Deployment",
+    "yang573/club-membership-py", "alexfchin/roombalistic"
   ],
 };
 
