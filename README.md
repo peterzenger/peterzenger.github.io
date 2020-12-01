@@ -68,14 +68,14 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
 1. To Get Started, Fork this repository to your GitHub account:
 2. Rename the repo so that it's \<your-username\>.github.io
-2. Clone the forked repo from your account
+3. Clone the forked repo from your account
 
-3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
+4. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
 
-4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
+5. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
 
-5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
-6. Change URL in [package.json](./package.json) file:
+6. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
+7. Change URL in [package.json](./package.json) file:
 
    ```json
     "homepage": "https://<your-username>.github.io/"
@@ -83,14 +83,14 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
    Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
 
-7. After editing run the following bash commands:
+8. After editing run the following bash commands:
 
    ```bash
    npm install
    npm start
    ```
 
-8. To deploy website, run:
+9. To deploy website, run:
 
    ```bash
     npm run build
@@ -105,15 +105,15 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
    simply delete the node\_modules/gh-pages/.cache/ folder and try again.
 
-9. Go to your GitHub repo settings and change the GitHub Pages branch to "live"
+10. Go to your GitHub repo settings and change the GitHub Pages branch to "live"
 
-10. Congrats your site is up and running. To see it live, visit:
+11. Congrats your site is up and running. To see it live, visit:
 
    ```https
      https://<your-username>.github.io/
    ```
 
-11. To change the thumbnail image:
+12. To change the thumbnail image:
 
     - Navigate to the "public" folder.  
     - There you will see "social-image.png".  
