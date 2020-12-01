@@ -67,7 +67,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 ## Setup And Deployment 🔧
 
 1. To Get Started, Fork this repository to your GitHub account:
-2. Rename the repo so that it's <your-username>.github.io
+2. Rename the repo so that it's \<your-username\>.github.io
 2. Clone the forked repo from your account
 
 3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
