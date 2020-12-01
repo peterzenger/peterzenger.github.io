@@ -97,6 +97,14 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
     npm run deploy
    ```
 
+   If deployment fails with:
+
+   ```
+    fatal: A branch named 'live' already exists
+   ```
+
+   simply delete the node\_modules/gh-pages/.cache/ folder and try again.
+
 9. Go to your GitHub repo settings and change the GitHub Pages branch to "live"
 
 10. Congrats your site is up and running. To see it live, visit:
