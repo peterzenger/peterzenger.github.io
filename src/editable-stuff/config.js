@@ -42,7 +42,12 @@ const about = {
   imageLink: require("../editable-stuff/yyang.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    " I am a senior studying computer science and sociology. \
+    Many of my past projects have focused on backend and cloud services, \
+    but I have also dabbled with some full-stack projects. \
+    I am most passionate about the cloud and systems, \
+    and I hope to land a career in one of these fields. \
+    I'm currently assisting a lab with designing benchmarks for cloud-native storage.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -62,10 +67,10 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: false, // Not enabled
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "Generic leadership message.",
   images: [
     { 
       img: require("../editable-stuff/yyang.png"), 
@@ -89,14 +94,17 @@ const skills = {
   show: true,
   heading: "Skills",
   skills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    "C",
+    "Java",
+    "C#",
+    "Python",
+    "JavaScript",
+    "HTML/CSS",
+    "SQL",
+    "NoSQL",
+    "Elasticsearch",
+    "Ceph",
+    "Flask"
   ]
 };
 
@@ -105,8 +113,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Questions? Comments? Concerns? Send me an email",
+  email: "yangyang1998@gmail.com",
 };
 
 // Blog SECTION
