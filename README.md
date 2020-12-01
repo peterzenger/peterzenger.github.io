@@ -67,11 +67,8 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 ## Setup And Deployment 🔧
 
 1. To Get Started, Fork this repository to your GitHub account:
-2. Clone the forked repo from your account using:
-
-   ```bash
-     git clone https://github.com/<your-username>/home.git
-   ```
+2. Rename the repo so that it's {username}.github.io
+2. Clone the forked repo from your account
 
 3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
 
@@ -81,7 +78,7 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 6. Change URL in [package.json](./package.json) file:
 
    ```json
-    "homepage": "https://<your-username>.github.io/home"
+    "homepage": "https://<your-username>.github.io/"
    ```
 
    Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
@@ -100,15 +97,15 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
     npm run deploy
    ```
 
-   Or for deployment at \<username>.github.io, refer [custom-deployment.md](./custom-deployment.md) and [pages.js](./pages.js)
+9. Go to your GitHub repo settings and change the GitHub Pages branch to "live"
 
-9. Congrats your site is up and running. To see it live, visit:
+10. Congrats your site is up and running. To see it live, visit:
 
    ```https
-     https://<your-username>.github.io/home
+     https://<your-username>.github.io/
    ```
 
-10. To change the thumbnail image:
+11. To change the thumbnail image:
 
     - Navigate to the "public" folder.  
     - There you will see "social-image.png".  
@@ -116,6 +113,4 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
     - Take a screenshot of your version and rename it "social-image.png" and place it there.  
     
    Next time if you make changes, repeat from step 8.
-
-Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
 
