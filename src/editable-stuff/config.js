@@ -59,11 +59,10 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "yang573", //i.e."johnDoe12Gh"
+  gitHubUsername: "peterzenger", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "yang573/yang573.github.io", "yang573/MYSpace-Deployment",
-    "yang573/club-membership-py", "alexfchin/roombalistic"
+    "peterzenger/peterzenger.github.io", "https://github.com/CSE416-NLP/waveback/",
   ],
 };
 
