@@ -92,12 +92,12 @@ const leadership = {
     "Generic leadership message.",
   images: [
     { 
-      img: require("../editable-stuff/yyang.png"), 
+      // img: require("../editable-stuff/yyang.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/yyang.png"), 
+      // img: require("../editable-stuff/yyang.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
