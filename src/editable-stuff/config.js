@@ -6,14 +6,14 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
-  firstName: "Yang",
+  firstName: "Peter",
   middleName: "",
-  lastName: "Yang",
+  lastName: "Zeng",
   message: "Senior at Stony Brook University",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/yang573",
+      url: "https://github.com/peterzenger",
     },
     {
       image: "fa-linkedin",
