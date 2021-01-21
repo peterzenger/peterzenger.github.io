@@ -37,7 +37,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/yyang.png"),
+  // imageLink: require("../editable-stuff/yyang.png"),
   imageSize: 375,
   message:
     " I am a senior studying computer science and sociology. \
