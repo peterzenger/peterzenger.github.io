@@ -60,7 +60,7 @@ const Project = ({ heading, username, length, specfic, manualProjects }) => {
     <Jumbotron fluid id="projects" className="bg-light m-0">
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
-        <Row>
+        {/* <Row>
           {manualProjects.length
               ? manualProjects.map((project, index) => (
                   <ManualCard
@@ -76,7 +76,7 @@ const Project = ({ heading, username, length, specfic, manualProjects }) => {
                     value={project}
                   />
                 ))}
-        </Row>
+        </Row> */}
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (

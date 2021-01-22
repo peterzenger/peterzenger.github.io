@@ -5,7 +5,7 @@ import {
   mainBody,
   about,
   repos,
-  manualProjects,
+  // manualProjects,
   leadership,
   skills,
   getInTouch,
@@ -48,7 +48,7 @@ const Home = React.forwardRef((props, ref) => {
           username={repos.gitHubUsername}
           length={repos.reposLength}
           specfic={repos.specificRepos}
-          manualProjects={manualProjects}
+          // manualProjects={manualProjects}
         />
       )}
       {leadership.show && (

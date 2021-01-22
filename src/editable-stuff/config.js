@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
+  gradientColors: "#B2FFFF, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
   firstName: "Peter",
   middleName: "",
   lastName: "Zeng",
@@ -17,7 +17,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/yang573/",
+      url: "https://www.linkedin.com/in/peter-zeng/",
     },
   ],
 };
@@ -37,15 +37,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  // imageLink: require("../editable-stuff/yyang.png"),
+  imageLink: require("../editable-stuff/pyrex.jpg"),
   imageSize: 375,
   message:
-    " I am a senior studying computer science and sociology. \
-    Many of my past projects have focused on backend and cloud services, \
-    but I have also dabbled with some full-stack projects. \
-    I am most passionate about the cloud and systems, \
-    and I hope to land a career in one of these fields. \
-    I'm currently assisting a lab with designing benchmarks for cloud-native storage.",
+    " I am a senior at Stony Brook University studying computer science with a specialization in AI and data science.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -62,26 +57,21 @@ const repos = {
   gitHubUsername: "peterzenger", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "peterzenger/peterzenger.github.io", "https://github.com/CSE416-NLP/waveback/",
+    "CSE416-NLP/waveback", "peterzenger/peterzenger.github.io",
+    "peterzenger/MiniatureKeyboard", 
   ],
 };
 
-const manualProjects = [
-  {
-    name: "Picking a Keyed Padlock",
-    description: "Practicing user instruction write-ups through locksport.",
-    url: "https://docs.google.com/document/d/1RI36PJYbEzbTaWqkow3LzRTZ0Pj_-GGmcAgrRUnPyUs/edit?usp=sharing",
-    classId: "CSE 300",
-    date: "November 2020"
-  },
-  {
-    name: "SB Engaged, Reimagined",
-    description: "Ideas for improving SBU club platforms to increase student participation.",
-    url: "https://drive.google.com/file/d/12IXf0dkHxbQvB_d-Yp_ERpdY_qj5J1_7/view?usp=sharing",
-    classId: "CSE 300",
-    date: "November 2020"
-  }
-];
+// const manualProjects = [
+//   {
+//     // show: false,
+//     name: "placeholder",
+//     description: "Playlist Creation/Sharing Software built using the MERN stack and Spotify API",
+//     url: "https://github.com/CSE416-NLP/waveback/",
+//     classId: "CSE 416",
+//     date: "Fall 2020"
+//   },
+// ];
 
 // Leadership SECTION
 const leadership = {
@@ -114,30 +104,26 @@ const skills = {
   skills: [
     "C",
     "Java",
-    "C#",
     "Python",
     "JavaScript",
+    "React",
     "HTML/CSS",
-    "SQL",
-    "NoSQL",
-    "Elasticsearch",
-    "Ceph",
-    "Flask"
+    "MongoDB",
   ]
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: false, // Not enabled
+  show: true, // Not enabled
   heading: "Get In Touch",
   message:
     "Questions? Comments? Concerns? Send me an email"
 };
 
 const contactInfo = {
-  email: "yangyang1998@gmail.com",
-  location: "Stony Brook, NY",
-  locationLink: "https://www.openstreetmap.org/#map=12/40.9174/-73.1247",
+  email: "peterateast@gmail.com",
+  location: "Buffalo, NY",
+  // locationLink: "https://www.openstreetmap.org/#map=12/40.9174/-73.1247",
   occupation: "Student at Stony Brook University"
 }
 
@@ -146,4 +132,4 @@ const contactInfo = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, manualProjects, skills, leadership, getInTouch, contactInfo };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, contactInfo };
