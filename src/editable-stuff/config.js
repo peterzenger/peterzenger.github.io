@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/peterzenger",
+      url: "https://github.com/peterzeng",
     },
     {
       image: "fa-linkedin",
@@ -54,11 +54,11 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "peterzenger", //i.e."johnDoe12Gh"
+  gitHubUsername: "peterzeng", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "CSE416-NLP/waveback", "peterzenger/peterzenger.github.io",
-    "peterzenger/MiniatureKeyboard", 
+    "CSE416-NLP/waveback", "peterzeng/peterzeng.github.io",
+    "peterzeng/MiniatureKeyboard", 
   ],
 };
 

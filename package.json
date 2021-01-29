@@ -1,13 +1,13 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages.",
-  "homepage": "https://peterzenger.github.io",
+  "homepage": "https://peterzeng.github.io",
   "version": "2.0.0",
   "private": true,
   "author": {
     "name": "Peter Zeng",
     "email": "peterateast@gmail.com",
-    "url": "https://github.com/peterzenger"
+    "url": "https://github.com/peterzeng"
   },
   "dependencies": {
     "axios": "^0.19.2",
