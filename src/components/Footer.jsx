@@ -17,7 +17,7 @@ const Footer = (props) => {
         >
           Hashir Shoaib
         </a>{" "}
-        using <i className="fab fa-react" /> tweaked by{" "}
+        using <i className="fab fa-react" /> tweaked by{"Peter Zeng"}
         <a
           className="badge badge-dark"
           rel="noopener"
