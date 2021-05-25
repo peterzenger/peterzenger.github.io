@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#B2FFFF, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
+  gradientColors: "#40E0D0, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f",
   firstName: "Peter",
   middleName: "",
   lastName: "Zeng",
-  message: "Senior at Stony Brook University",
+  message: "First Year Master's at Stony Brook University",
   icons: [
     {
       image: "fa-github",
@@ -40,7 +40,7 @@ const about = {
   imageLink: require("../editable-stuff/pyrex.jpg"),
   imageSize: 375,
   message:
-    " I am a senior at Stony Brook University studying computer science with a specialization in AI and data science.",
+    " I am currently a first year Master's student at Stony Brook University studying computer science with a specialization in AI and data science. \n In my free time, I like to play and listen to music, cruise around on my longboard, or play some Super Smash Brothers Melee",
   resume: require("../editable-stuff/resume.pdf"),
 };
 

@@ -17,14 +17,14 @@ const Footer = (props) => {
         >
           Hashir Shoaib
         </a>{" "}
-        using <i className="fab fa-react" /> tweaked by{"Peter Zeng"}
+        using <i className="fab fa-react" /> tweaked by {" "}
         <a
           className="badge badge-dark"
           rel="noopener"
           href="https://github.com/peterzeng"
           aria-label="My GitHub"
         >
-
+          Peter Zeng
         </a>{" "}
         <p>
           <small className="text-muted">
