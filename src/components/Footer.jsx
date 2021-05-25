@@ -24,7 +24,7 @@ const Footer = (props) => {
           href="https://github.com/peterzeng"
           aria-label="My GitHub"
         >
-          Peter Zeng
+
         </a>{" "}
         <p>
           <small className="text-muted">
