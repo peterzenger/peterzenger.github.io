@@ -40,7 +40,7 @@ const about = {
   imageLink: require("../editable-stuff/pyrex.jpg"),
   imageSize: 375,
   message:
-    " I am currently a first year Master's student at Stony Brook University studying computer science with a specialization in AI and data science. \n In my free time, I like to play and listen to music, cruise around on my longboard, or play some Super Smash Brothers Melee",
+    " I am currently a first year Master's student at Stony Brook University studying computer science with a specialization in AI and data science. \n In my free time, I like to play and listen to music, cruise around on my longboard, or play some Super Smash Brothers Melee (Falco main :))",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
